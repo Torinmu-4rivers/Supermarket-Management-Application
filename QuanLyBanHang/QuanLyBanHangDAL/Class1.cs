@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace QuanLyBanHangDAL
 {
-    public class SQL_customers
+    public class Class1
     {
     }
 }
