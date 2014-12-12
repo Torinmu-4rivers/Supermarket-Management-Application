@@ -8,10 +8,17 @@ using QuanLyBanHangEntity;
 
 namespace QuanLyBanHangDAL
 {
-    class SQL_orders
+    public class SQL_orders
     {
         KetNoiDB cn = new KetNoiDB();
         // hàm thêm dữ liệu
+        //hàm kiểm tra, nếu trong table orders chưa có bản ghi
+        //thì hig báo  hayx add thêm bản ghi, có rồi thì thôi
+     
+        public int KiemTraOrders(string order_id)
+        {
+            return int.Parse(cn.GetValue("select count(*) from orders where order_id = '" + order_id + ""));
+        }
         public void ThemDuLieu(EC_orders et )
         {
             cn.ThucThiCauLenhSQL("INSERT INTO orders VALUES (" + et.Order_id + "," + et.Cust_id + "," + et.Order_date + "," + et.Order_payment_date + "," + et.Order_employee_id + "," + et.Order_payment_method + ";");

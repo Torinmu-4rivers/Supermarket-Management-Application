@@ -8,7 +8,7 @@ using QuanLyBanHangEntity;
 
 namespace QuanLyBanHangDAL
 {
-    class SQL_order_items
+    public class SQL_order_items
     {
         KetNoiDB cn = new KetNoiDB();
         // them du lieu

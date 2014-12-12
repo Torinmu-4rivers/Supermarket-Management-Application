@@ -8,7 +8,8 @@ using QuanLyBanHangEntity;
 
 namespace QuanLyBanHangDAL
 {
-    class SQL_deliveries
+ 
+    public class SQL_deliveries
     {
         KetNoiDB cn = new KetNoiDB();
         public void ThemDuLieu (EC_deliveries et)

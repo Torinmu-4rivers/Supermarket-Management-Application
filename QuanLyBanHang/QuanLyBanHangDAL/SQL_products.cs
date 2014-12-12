@@ -8,7 +8,7 @@ using QuanLyBanHangEntity;
 
 namespace QuanLyBanHangDAL
 {
-    class SQL_products
+    public class SQL_products
     {
         KetNoiDB cn = new KetNoiDB();
         // hàm thêm dữ liệu

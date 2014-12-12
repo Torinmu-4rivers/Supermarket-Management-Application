@@ -31,7 +31,7 @@
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="Npgsql">
-      <HintPath>..\..\..\..\..\Downloads\Compressed\New folder\Npgsql.dll</HintPath>
+      <HintPath>..\..\..\..\..\Desktop\Npgsql-2.2.2-net45\Npgsql.dll</HintPath>
     </Reference>
     <Reference Include="System" />
     <Reference Include="System.Core" />
@@ -44,8 +44,8 @@
   <ItemGroup>
     <Compile Include="employees_job.cs" />
     <Compile Include="KetNoiDB.cs" />
-    <Compile Include="SQL_customers.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="SQL_customers.cs" />
     <Compile Include="SQL_deliveries.cs" />
     <Compile Include="SQL_employees.cs" />
     <Compile Include="SQL_orders.cs" />

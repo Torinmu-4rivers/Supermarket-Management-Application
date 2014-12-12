@@ -8,7 +8,7 @@ using QuanLyBanHangEntity;
 
 namespace QuanLyBanHangDAL
 {
-    class employee_jobs
+    public class employee_jobs
     {
         KetNoiDB cn = new KetNoiDB();
         public void ThemDuLieu(EC_employee_jobs et)
