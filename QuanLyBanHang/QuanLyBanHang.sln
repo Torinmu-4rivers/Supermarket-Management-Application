@@ -9,6 +9,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "QuanLyBanHangEntity", "Quan
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "QuanLyBanHangBUS", "QuanLyBanHangBUS\QuanLyBanHangBUS.csproj", "{337ED392-3A23-4402-8C39-E3D5FEB38CD6}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "QuanLyBanHangDAL", "QuanLyBanHangDAL\QuanLyBanHangDAL.csproj", "{246B09F9-0CF7-4D3C-87D9-83266014CF52}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,6 +29,10 @@ Global
 		{337ED392-3A23-4402-8C39-E3D5FEB38CD6}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{337ED392-3A23-4402-8C39-E3D5FEB38CD6}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{337ED392-3A23-4402-8C39-E3D5FEB38CD6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{246B09F9-0CF7-4D3C-87D9-83266014CF52}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{246B09F9-0CF7-4D3C-87D9-83266014CF52}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{246B09F9-0CF7-4D3C-87D9-83266014CF52}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{246B09F9-0CF7-4D3C-87D9-83266014CF52}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
