@@ -42,12 +42,12 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="employees_job.cs" />
     <Compile Include="KetNoiDB.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="SQL_customers.cs" />
     <Compile Include="SQL_deliveries.cs" />
     <Compile Include="SQL_employees.cs" />
+    <Compile Include="SQL_employees_job.cs" />
     <Compile Include="SQL_orders.cs" />
     <Compile Include="SQL_order_items.cs" />
     <Compile Include="SQL_products.cs" />
