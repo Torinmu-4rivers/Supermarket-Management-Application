@@ -8,6 +8,13 @@ namespace QLBHEntity
 {
     public class EC_employees
     {
+        private string _user_id;
+        public string User_id
+        {
+            get { return _user_id; }
+            set { _user_id = value; }
+        }
+
         private string _employ_id;
 
         public string Employ_id

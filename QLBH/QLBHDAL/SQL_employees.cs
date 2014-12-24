@@ -18,7 +18,8 @@ namespace QLBHDAL
         }
         public void SuaDulieu(EC_employees et)
         {
-            cn.ThucThiCauLenhSQL("UPDATE employees SET employ_name ='" + et.Employ_name + "',employ_gender = '" + et.Employ_gender + "',employ_age='" + et.Employ_age + "',employ_phone_number ='" + et.Employ_phone_number + "',employ_address = '" + et.Employ_address + "',employ_work_start_date = '" + et.Employ_workstart_date + "',employ_id_number = '" + et.Employ_id_number + "' where employ_id = '" + et.Employ_id + "';");
+            cn.ThucThiCauLenhSQL("UPDATE employees SET employ_name ='" + et.Employ_name + "',employ_gender = '" + et.Employ_gender + "',employ_age='" + et.Employ_age + "',employ_address = '" + et.Employ_address + "',employ_work_start_date = '" + et.Employ_workstart_date + "',user_id = '"+et.User_id+"' where employ_id = '" + et.Employ_id + "';");
+            /*,employ_phone_number ='" + et.Employ_phone_number + "'*/
         }
         public void XoaDuLieu(EC_employees et)
         {
